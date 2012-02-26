@@ -1,0 +1,13 @@
+# Generated .class files and anything else in the 'bin' folder
+bin/
+
+# Eclipse configuration files
+.classpath
+.project
+.settings/
+
+# OS-generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
