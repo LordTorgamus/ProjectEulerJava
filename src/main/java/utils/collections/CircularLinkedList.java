@@ -26,11 +26,11 @@ public class CircularLinkedList<E> {
     }
 
     public void advanceCurrent() {
-        current = current.next;
+        current = current.getNext();
     }
     
     public E getCurrentValue() {
-        return current.contents;
+        return current.getContents();
     }
     
     private class Node<F> {
