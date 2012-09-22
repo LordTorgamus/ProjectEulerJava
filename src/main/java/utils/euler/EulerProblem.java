@@ -15,7 +15,7 @@ public abstract class EulerProblem {
         instance.setAnswer(instance.doProblemSpecificStuff());
         System.out.println("Answer: " + instance.getAnswer());
 
-        // See if the problem was completed in one minute
+        // See if the problem was completed within one minute
         instance.setRunningTime(instance.getEulerTime());
         System.out.println("--------------------------");
         System.out.println("Running time: " + instance.getRunningTime() + " seconds");
